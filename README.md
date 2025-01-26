@@ -1,7 +1,6 @@
 # What is this?
 
-This is a public api using github pages for the Final Higher Education Project of Multiplatform Application Development. It consist of a series of motivational phrases to help the people using the app, [which is an addiction manager](https://addiction-helper.vercel.app/). 
-
+This is a public api using github pages for the Final Higher Education Project of Multiplatform Application Development. It consist of a series of motivational phrases to help the people using the app.
 # Can I contribute?
 
 Absolutely! feel free to add your favourite phrases whether they are religoius or not. Use the religion camp on the json to clarify it. 1 = catholic, 0 = non religious.
@@ -16,7 +15,7 @@ Yes you can, you can also fork this and use it however you want.
 # How can I use this API
 
 Simply make a HTTP request to
-```https://gomezmig03.github.io/MotivationalAPI/[language].json```
+```https://vadymyem.github.io/MotivationalAPI/[language].json```
 
 The current languages codes are the following:
  * English = en
@@ -26,7 +25,7 @@ The current languages codes are the following:
 
 ## Example of an HTTP request to get a random phrase and author on javascript
 ```
-fetch('https://gomezmig03.github.io/MotivationalAPI/en.json')
+fetch('https://vadymyem.github.io/MotivationalAPI/en.json')
         .then(response => {
           if (!response.ok) {
             throw new Error('Unable to retrieve data from the server.');
@@ -43,3 +42,5 @@ fetch('https://gomezmig03.github.io/MotivationalAPI/en.json')
           console.error('Error:', error);
         });
 ```
+
+Thx gomezmig03 for start
